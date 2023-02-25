@@ -1,0 +1,47 @@
+* {
+   background-color: black;
+}
+
+
+.relativo > img{
+   position: relative;
+}
+
+
+.next {
+   position: absolute;
+   background-color: rgba(255, 0, 0, 0.264);
+   
+   /*background-color: rgba(255, 255, 255, 0);*/
+   
+   width: 50vh;
+   height: 100vh;
+   
+   margin-top: -100vh;
+   
+   right: 0;
+   
+   min-width: 480px;
+   max-width: 100px;
+   
+}
+.prev {
+   position: absolute;
+   background-color: rgba(0, 0, 255, 0.363);
+   
+   /*background-color: rgba(255, 255, 255, 0);*/
+   
+   width: 50vh;
+   height: 100vh;
+   
+   margin-top: -100vh;
+   
+   left: 0;
+   
+   min-width: 480px;
+}
+img {
+   display: block;
+   height: 98vh;
+   margin: auto;
+}
