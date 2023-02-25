@@ -2,8 +2,6 @@
    background-color: black;
 }
 
-/* USAR UM ARQUIVO CSS PARA CADA SLIDE, ASSIM EU CONSIGO ADICIONAR UM SLIDE COMO UM background-image: url(); SENDO MAIS FÁCIL DE CENTRALIZAR E MANIPULAR, não, vadia!! já consegui centralizar*/
-
 
 .relativo > img{
    position: relative;
